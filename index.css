@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 200px;
+}
+
+.carousel-caption h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 65px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25-px;
+}
+
+.carousel-caption p {
+  font-size: 24px;
+  margin: auto;
+  width: 70%;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.carousel-caption .more-info a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #71b897;
+  padding: 10px 30px;
+  display: inline-block;
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.navbar-nav a {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+a.navbar-brand {
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
+  color: #e940a8;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: .5rem 1rem;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: #8b8989;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: .3;
+  background-color: white;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav .ml-auto {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
